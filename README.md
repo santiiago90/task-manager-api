@@ -216,5 +216,5 @@ http://localhost:3000
 
 Santiago Fernandes
 
-LinkedIn: adicionar_linkedin_aqui
-GitHub: adicionar_github_aqui
+LinkedIn: https://www.linkedin.com/in/santiago-fernandes-76456b3a4/
+GitHub: https://github.com/santiiago90
