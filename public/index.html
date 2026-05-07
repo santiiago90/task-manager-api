@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="container">
+    <h1>Gestor de Tarefas</h1>
+
+<form id="taskForm">
+  <input 
+    type="text" 
+    id="taskInput" 
+    placeholder="Escreve uma nova tarefa...">
+
+  <select id="dayInput">
+    <option value="segunda">Segunda</option>
+    <option value="terca">Terça</option>
+    <option value="quarta">Quarta</option>
+    <option value="quinta">Quinta</option>
+    <option value="sexta">Sexta</option>
+    <option value="sabado">Sábado</option>
+    <option value="domingo">Domingo</option>
+  </select>
+
+  <button type="submit">Adicionar</button>
+</form>
+
+<section class="week">
+  <div class="day" id="segunda"><h2>Segunda</h2><ul></ul></div>
+  <div class="day" id="terca"><h2>Terça</h2><ul></ul></div>
+  <div class="day" id="quarta"><h2>Quarta</h2><ul></ul></div>
+  <div class="day" id="quinta"><h2>Quinta</h2><ul></ul></div>
+  <div class="day" id="sexta"><h2>Sexta</h2><ul></ul></div>
+  <div class="day" id="sabado"><h2>Sábado</h2><ul></ul></div>
+  <div class="day" id="domingo"><h2>Domingo</h2><ul></ul></div>
+</section>
+
+
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>
